@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화 검색 사이트</title>
+
+    <style>
+        header {
+            padding: 15px;
+            color: white;
+        }
+
+        header h1 {
+            text-align: center;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .search {
+            background-color: green;
+            width: 360px;
+            padding: 20px;
+            margin: 20px auto 20px auto;
+            font-size: 25px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>최고 평점 영화 콜렉션</h1>
+    </header>
+
+    <div class="search">
+        <div class="input-group mb-3">
+            <label>영화 검색 : </label>
+            <input type="text" class="form-control" placeholder="영화 제목을 검색해 보세요." aria-label="Recipient's username"
+                aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary" type="button" id="button-addon2">검색</button>
+        </div>
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+            <div class="card h-100">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
